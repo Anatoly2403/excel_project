@@ -6,8 +6,8 @@
     "node": true
   },
   "rules": {
-    "require-jsdoc": 0,
-    "quotes": 0
+    "require-jsdoc": 0
   },
-  "extends": ["eslint:recommended", "google"]
+  "extends": ["eslint:recommended", "prettier", "google"],
+  "plugins": ["prettier"]
 }
