@@ -1,5 +1,5 @@
 import './module';
-import '@/scss/index.scss';
+import '@/styles/main.scss';
 
 console.log('working');
 
